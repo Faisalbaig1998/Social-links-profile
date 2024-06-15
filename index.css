@@ -30,16 +30,16 @@ body {
 }
 
 .author {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 90%;
-  height: 35%;
+  height: 40%;
 }
 
 .link-section {
   padding: 10px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 90%;
-  height: 60%;
+  height: 55%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -64,4 +64,48 @@ body {
   font-family: Inter;
   color: hsl(0, 0%, 100%);
   text-decoration: none;
+}
+
+.author {
+  display: flex;
+  flex-direction: column;
+  font-family: Inter;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.avatar-img {
+  margin-top: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  /* border: 2px solid red; */
+}
+
+.avatar-name {
+  margin-top: 10px;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+  /* border: 2px solid red; */
+}
+
+.city-name {
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: hsl(75, 94%, 57%);
+  /* border: 2px solid red; */
+}
+
+.quote {
+  font-weight: 300;
+  font-size: 12px;
+  color: hsl(0, 0%, 100%);
+  font-size: small;
+  text-align: center;
+  /* border: 2px solid red; */
+}
+
+.link-box:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
 }
